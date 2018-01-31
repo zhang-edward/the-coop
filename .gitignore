@@ -1,7 +1,16 @@
 obj/
 Temp/
+Library/
+ExportedObj/
+*.svd
 *.userprefs
-Assembly-CSharp.csproj
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
 # Compiled source #
 ###################
 *.com
