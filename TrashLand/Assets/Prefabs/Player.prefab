@@ -82,6 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ede11d401efe1494dab1c312ca491593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  depth: {fileID: 0}
 --- !u!114 &114287430689185954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -93,6 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f939d049e6c441efb9e11d601c89dea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objects: []
   originalScale: {x: 1, y: 1.5, z: 1}
 --- !u!212 &212061381759956198
 SpriteRenderer:
