@@ -26,7 +26,7 @@ public class Player : MonoBehaviour {
 	void MovePlayer(){
 		Vector2 s = Camera.main.WorldToViewportPoint (transform.position);
 		float vy = 0f; float vx = 0f; float vdir = Input.GetAxisRaw ("Vertical"); float hdir = Input.GetAxisRaw ("Horizontal");
-		Debug.Log (vx);
+		// Debug.Log (vx);
 
 		if (!((s.y > HORIZON && vdir == 1) || (s.y < 0.1 && vdir == -1))) {
 			// only update vy if its in between the horizon and floor, and that it moves in the right dir
